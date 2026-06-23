@@ -92,7 +92,7 @@ int main(int argc, char ** argv) {
 	simulate_sensor(&s);
         Action a = expert_label(&s);
 	if  (a==ACTION_TRUTH) {
-		if (!quiet)  printf("%s\n", "OPEN");
+		if (!quiet)  printf("%s\n", "DANGER");
  	       if(!quiet){
   	              fflush(stdout);
    	     }
