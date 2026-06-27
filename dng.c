@@ -20,7 +20,7 @@
 
 int rnd(){
 	static int r;
-	asm("1: pause; rdrand %0; jnc 1":"=r"(r));
+	asm("1: pause; rdrand %0; jae 1b":"=r"(r));
 	return r;
 }
 
