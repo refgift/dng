@@ -17,4 +17,4 @@
 -- while true; do ./dng | espeak -a200; done 
 -- This works on Linux if you install espeak
 -- Other text to speech programs exist.
-
+- while sleep 1; do clear && date &&  ./dng  ; done
